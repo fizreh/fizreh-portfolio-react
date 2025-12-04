@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/fizreh-portfolio-react/static/css/main.56a985f5.css",
+    "main.js": "/fizreh-portfolio-react/static/js/main.c4f4abd4.js",
+    "static/js/453.b05d8aa5.chunk.js": "/fizreh-portfolio-react/static/js/453.b05d8aa5.chunk.js",
+    "static/media/bg-light.png": "/fizreh-portfolio-react/static/media/bg-light.bac0efb485244a522981.png",
+    "static/media/bg-dark.png": "/fizreh-portfolio-react/static/media/bg-dark.f420c6b8458af72de935.png",
+    "index.html": "/fizreh-portfolio-react/index.html",
+    "main.56a985f5.css.map": "/fizreh-portfolio-react/static/css/main.56a985f5.css.map",
+    "main.c4f4abd4.js.map": "/fizreh-portfolio-react/static/js/main.c4f4abd4.js.map",
+    "453.b05d8aa5.chunk.js.map": "/fizreh-portfolio-react/static/js/453.b05d8aa5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.56a985f5.css",
+    "static/js/main.c4f4abd4.js"
+  ]
+}
