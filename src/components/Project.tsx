@@ -11,7 +11,7 @@ function Project() {
                 <p>Built using React with real-time tracking and potential for AI-powered categorization.</p>
             </div>
             <div className="project">
-                <a href="https://react-quiz-app-faiza.surge.sh/quiz" target="_blank" rel="noreferrer"><h2>Quiz App</h2></a>
+                <a href="https://react-quiz-app-faiza.surge.sh/" target="_blank" rel="noreferrer"><h2>Quiz App</h2></a>
                 <p>Interactive quiz built with React and TypeScript</p>
             </div>
             <div className="project">
