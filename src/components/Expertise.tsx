@@ -7,38 +7,32 @@ import '../assets/styles/Expertise.scss';
 
 const labelsFirst = [
     "React",
+    "Angular",
+    "C#",
+    ".NET MVC Core",
     "TypeScript",
     "JavaScript",
     "HTML5",
     "CSS3",
     "SASS",
-    "Flask",
-    "Python",
     "SQL",
     "PostgreSQL",
+    "MONGO DB",
     "Postman"
 ];
 
 const labelsSecond = [
     "Git",
     "GitHub Actions",
+    "Jenkins",
     "Docker",
-    "AWS",
     "Azure",
     "Linux",
-    "Snowflake",
-    "Pandas",
-    "Selenium",
+    
 ];
 
-const labelsThird = [
-    "OpenAI",
-    "Groq",
-    "LangChain",
-    "Qdrant",
-    "Hugging Face",
-    "LlamaIndex",
-    "Streamlit",
+const labelsThird: any[] = [
+    
 ];
 
 function Expertise() {
@@ -50,7 +44,7 @@ function Expertise() {
                 <div className="skill">
                     <FontAwesomeIcon icon={faReact} size="3x"/>
                     <h3>Full Stack Web Development</h3>
-                    <p>I have built a diverse array of web applications from scratch using modern technologies such as React and Flask. I have a strong proficiency in the SDLC process and frontend + backend development.</p>
+                    <p>I am a motivated Full-Stack Developer with 3+ years of experience delivering scalable web applications and enterprise-grade software solutions. I am skilled in C#, .NET MVC, JavaScript, TypeScript, React, Angular, SQL, RESTful APIs, and CI/CD pipelines, and I am actively expanding my expertise in cloud computing, Docker, and DevOps practices. I have a proven track record in modernizing legacy systems, building responsive user interfaces, and designing reliable backend services for high-demand platforms. I thrive in agile, multicultural teams, enjoy solving complex problems, and am passionate about delivering user-focused, resilient solutions.</p>
                     <div className="flex-chips">
                         <span className="chip-title">Tech stack:</span>
                         {labelsFirst.map((label, index) => (
@@ -62,7 +56,7 @@ function Expertise() {
                 <div className="skill">
                     <FontAwesomeIcon icon={faDocker} size="3x"/>
                     <h3>DevOps & Automation</h3>
-                    <p>Once the application is built, I help clients set up DevOps testing, CI/CD pipelines, and deployment automation to support the successful Go-Live.</p>
+                    <p>I can design and implement CI/CD pipelines using Jenkins or similar tools to automate builds, testing, and deployments. I can containerize applications with Docker to ensure consistent environments across development, testing, and production. I can set up automated monitoring and maintenance workflows, leverage cloud-based deployment practices, and collaborate with agile teams to improve efficiency, reliability, and delivery speed.</p>
                     <div className="flex-chips">
                         <span className="chip-title">Tech stack:</span>
                         {labelsSecond.map((label, index) => (
@@ -73,14 +67,14 @@ function Expertise() {
 
                 <div className="skill">
                     <FontAwesomeIcon icon={faPython} size="3x"/>
-                    <h3>GenAI & LLM</h3>
-                    <p>Stay relevant in the market by leveraging the latest AI models in your projects. I have professional experience building enterprise grade GenAI-enabled solutions to empower intelligent decision making.</p>
-                    <div className="flex-chips">
+                    <h3>GenAI</h3>
+                    <p>I am passionate about Generative AI, motivated to stay updated with the latest advancements, and eager to apply AI-driven solutions to create intelligent, innovative applications.</p>
+                    {/* <div className="flex-chips">
                         <span className="chip-title">Tech stack:</span>
                         {labelsThird.map((label, index) => (
                             <Chip key={index} className='chip' label={label} />
                         ))}
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </div>
